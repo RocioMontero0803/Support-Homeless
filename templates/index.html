@@ -5,25 +5,7 @@
         <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
     </head>
     <body>
-         <ul>
-<li><a href="#home">Home</a>
-  </li>
-  <li class="dropdown"><a href="#seekhelp">Gallery</a></li>
-  <li class="dropdown"><a href="#getinvolved">About Us</a>
-
- <!-- <div class="dropdown-content">
-      <a href="#">Volunteering</a>
-      <a href="#">Donate</a>
-    </div>-->
-    </li>
-  <li class="dropdown"><a href="#about">Resources</a>
-          <div class="dropdown-content">
-      <a href="#">Contact Us</a>
-
-    </div></li>
-
-
-</ul>
+         {% include "menu.html" %}
 <h1>Home</h1>
 
 <p>Homelessness</p>
