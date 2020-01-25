@@ -13,6 +13,16 @@ def main():
 def about():
     return render_template('about.html')
 
-@app.route('/volunteering', methods=['GET'])
-def artist():
-    return render_template('volunteering.html')
+@app.route('/contact', methods=['GET'])
+def contact():
+    return render_template('contact.html')
+
+@app.route('/gallery', methods=['GET'])
+def gallery():
+    return render_template('gallery.html')
+
+@app.route('/resources', methods=['GET'])
+def resources():
+    return render_template('resources.html')
+
+
