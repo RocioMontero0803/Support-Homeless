@@ -49,3 +49,10 @@ li.dropdown {
   display: block;
 }
 
+body {
+  background-image: url('images/Homeless_logo.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
