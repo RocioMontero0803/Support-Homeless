@@ -1,5 +1,98 @@
 ul {
   list-style-type: none;
+  margin:0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  width: 120px;
+  margin: 15px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: purple;
+
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+h2 {
+  font-size: 35px;
+  text-align:center;
+}
+body {
+  color: black;
+}
+
+h1 {
+  font-size: 100px;
+  text-align:center;
+  color: slategrey;
+  font-family: 'Akronim', cursive;
+}
+h3::first-letter{
+  font-size: 200%;
+  color: purple;
+}
+h3 {
+    text-align:left;
+}
+p {
+  font-size: 18px;
+}
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+#bannerimage {
+  background-image: url('images/Homeless_logo_New.png');
+  height: 490px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+
+}
+.img-container ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
@@ -7,7 +100,7 @@ ul {
 }
 
 li {
-  float: left;
+ float: left;
 }
 
 li a, .dropbtn {
@@ -40,11 +133,47 @@ li.dropdown {
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-  text-align: left;
+  text-align: center;
 }
 
 .dropdown-content a:hover {background-color: #f1f1f1;}
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+.img-container{
+    background-image: url('images/Downtown.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+
+}
+.birds{
+    background-image:url('images/birds.png');
+     background-position: center;
+}
+h4 {
+    font-size: 30px;
+    }
+h5 {
+    font-size: 30px;
+    }
+#rocio{
+    background-image:url('images/Rocio.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+#yaritza{
+    background-image:url('images/Yaritza.jpg');
+    height: 200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+.center{
+    text-align:center;
+}
 }

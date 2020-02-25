@@ -14,8 +14,10 @@ li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
+  width: 120px;
+  margin: 15px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -47,4 +49,51 @@ li.dropdown {
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+.birds{
+    background-image:url('images/birds.png');
+     background-position: center;
+}
+h1 {
+  font-size: 100px;
+  text-align:center;
+  color: slategrey;
+  font-family: 'Akronim', cursive;
+}
+.indent{ text-indent:2em;
+text-align:center;
+}
+iframe{
+   display:block;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.center{
+    text-align:center;
+}
+
+div.relative {
+  display:block;
+  position: relative;
+  width: 50%;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
+#bannerimage {
+  background-image: url('images/Homeless_logo_New.png');
+  height: 490px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+
+}
+.img-container{
+    background-image: url('images/Downtown.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
 }

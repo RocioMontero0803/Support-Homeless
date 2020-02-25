@@ -2,12 +2,26 @@
 <html>
     <head>
         <title>Helping Hand</title>
-        <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='gall.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
     </head>
     <body>
          {% include "menu.html" %}
-<h1>Gallery</h1>
+                   <div class="img-container">
+   <div id="bannerimage"></div>
+   </div>
+<h1 class= "birds"><link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">Gallery</h1>
 
-<p>Homelessness</p>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS1jmjhK9euOKKa1stq7XrMP0QKBEQLvb347uWvVpIy8ERMLb2k">
+<br>
+   <img src="https://www.givingcityaustin.com/wp-content/uploads/2019/02/homeless-help-737x415.jpg" alt="Homeless">
+<img src="https://www.austinchronicle.com/binary/e6a6/pols_feature1-2.jpg" alt="Homeless">
+<br>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTKh7cDb1aPwZYg58NipDisYdkRzSscGUDTQQEsRYsz_5eBewkY">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRJY-_PL0J-h18-ttFm_jcfM3k4FkCQC0Ay_WIruzbEoNW49UX2">
+<p class= "center"><a href="#nav">Top of the Page</a></p>
     </body>
+
 </html>

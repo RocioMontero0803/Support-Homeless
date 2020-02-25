@@ -48,3 +48,27 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+.birds{
+    background-image:url('images/birds.png');
+     background-position: center;
+}
+h1 {
+  font-size: 54px;
+  text-align:center;
+  color: slategrey;
+  font-family: 'Akronim', cursive;
+}
+#bannerimage {
+  background-image: url('images/Homeless_logo_New.png');
+  height: 490px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+
+}
+.img-container{
+    background-image: url('images/Downtown.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+}

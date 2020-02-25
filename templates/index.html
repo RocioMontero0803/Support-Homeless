@@ -2,12 +2,81 @@
 <html>
     <head>
         <title>Helping Hand</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
     </head>
     <body>
          {% include "menu.html" %}
-<h1>Home</h1>
+          <div class="img-container">
+   <div id="bannerimage"></div>
+   </div>
+         <!-- <img src="https://getdrawings.com/img/silhouette-images-of-birds-5.png">-->
+          <h1 class= "birds"> <link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">Helping Hand</h1>
 
-<p>Homelessness</p>
+
+<h2 class="indent" class="size" class= "justify">
+    <span class="notbold" class= "justify">
+Homeless in Austin has been a problem over the years.There
+are multiple people out in the streets day to day and have
+barely any shelter where they are at.
+These people are humans too and deserve a place to stay at.
+This website will help provide different resources for the people
+in need for an easier access to these materials.
+It will also bring awareness to the people that are uninformed about the topic in order to educate the people that want to know more about this topic.
+</span>
+</h2>
+<div class="row">
+  <div class="column">
+
+    <h2 class= "color" class= "center">Types of Homeless</h2>
+    <p class="indent" class= "justify">There are different types of homeless some may be more intese than the others.
+    The main three types of homeless are Chronically, Transitional, and Episodic each one of them is a different level of homeless<br>
+    </p>
+
+    <p class= "indent" class= "justify"><strong>Chronically</strong> - This is a person which has experienced homeless
+    multiple times. They sometimes have a health issue as well which makes them hard to get a job and a suitable living condition for themselves.
+    </p>
+
+    <p class= "indent" class= "justify"> <strong>Transitional</strong> - This is the most common form of homeless.
+    This is mostly younger people that need shelter. They often get help from homeless shelters and this could either benefit them or just make there condition worse.
+    </p>
+
+    <p class="indent" class= "justify"><strong>Episodic</strong> - This is when indivduals experience
+    homeless but some times they don't. They would trade between rehabs or some shelters
+    to get some medical help but after they are done they go back to the streets.
+    </p>
+  </div>
+<div class="relative">
+<br>
+<div class="row">
+    <div class='column'>
+<h2 class= "color" class= "center">Causes of Homeless</h2>
+<p class="indent" class= "justify">
+Lack of affordable housing.The cost of living in general has increased a significant
+amount over the course of the years.In the austin area to live comfortably you
+will need about $80,000 a year.
+</p>
+
+<p class="indent" class= "justify">
+Lack of access of health services or for substance abuse. There is a massive amount of people that serve from a mental illness.
+The majority of the people of the streets have some sort of disease or illness tha unables them to be stable in an environment
+where there are people.
+</p>
+
+<p class="indent" class= "justify">
+ Employment factors there is a lot of unemployment. There is sometimes low wages that
+ the jobs they give you for working but that doesn't give you enough to live in a well environment.
+ Also if they have limited skills in working they have a limited amount of options where they are eligible to work at.
+ </p>
+ </div>
+</div>
+</div>
+</div>
+<h2 class= "color" class= "center">Austin Experience Homeless</h2>
+<img class= "center" src="https://www.austinecho.org/wp-content/uploads/2019/06/homelessness-01.png">
+<a class="center" href="https://www.austinecho.org/about-echo/homelessness-in-austin" target="_blank"><p class= "center">Source from https://www.austinecho.org/about-echo/homelessness-in-austin</p></a>
+<p class= "center"><a href="#nav">Top of the Page</a></p>
     </body>
 </html>

@@ -2,12 +2,58 @@
 <html>
     <head>
         <title>Helping Hand</title>
-        <link rel="stylesheet" href="{{ url_for('static',filename='main.css') }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="{{ url_for('static',filename='resource.css') }}">
+        <link rel="shortcut icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
+        <link rel="icon" href="{{ url_for('static',filename='favicon.ico') }}" type="image/x-icon">
     </head>
     <body>
 {% include "menu.html" %}
-<h1>Resources</h1>
+          <div class="img-container">
+   <div id="bannerimage"></div>
+   </div>
+<h1 class= "birds"><link href="https://fonts.googleapis.com/css?family=Akronim&display=swap" rel="stylesheet">Resources</h1>
 
-<p>Homelessness</p>
-    </body>
+<h3 class="indent" >
+These are some helpful resources which can help with different homeless situations
+</h3>
+
+<h2 class= "center" >
+<a href="http://awayhomeamerica.org/" target="_blank" >End Youth Homelessness</a>
+</h2>
+<p></p>
+
+<h2 class= "center" >
+<br><a href="https://www.lifeworksaustin.org/impact" target="_blank">Life Work Austin </a>
+</h2>
+<p></p>
+
+<h2 class= "center" >
+<br><a href="https://www.austinecho.org/about-echo/homelessness-in-austin/" target="_blank">Austin Echo </a>
+</h2>
+<p></p>
+
+<h2 class= "center" >
+<br><a href="http://www.austintexas.gov/department/austin-public-health-homeless-assistance" target="_blank">Austin Texas Health </a>
+</h2>
+<p></p>
+
+<h2 class= "center" >
+<br><a href="http://www.austintexas.gov/department/resources-those-experiencing-homelessness" target="_blank">Austin Texas Resources </a>
+</h2>
+<p></p>
+
+<h2 class= "center" >
+<br><a href="https://mlf.org/" target="_blank">Mobile Loaves & Fishes </a>
+</h2>
+<p></p>
+
+ <div class="relative">
+     <p class="class">
+    <iframe src="https://www.youtube.com/embed/Db8NHiCyGTw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 'SameSite=None; Secure'></iframe>
+    <iframe src="https://www.youtube.com/embed/DcnxHI4aI8w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen 'SameSite=None; Secure'></iframe>
+    </p>
+    </div>
+    <p class= "center"><a href="#nav">Top of the Page</a></p>
+ </body>
 </html>
