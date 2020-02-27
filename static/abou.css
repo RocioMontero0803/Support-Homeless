@@ -159,6 +159,10 @@ h4 {
 h5 {
     font-size: 30px;
     }
+h6{
+    font-size: 30px;
+    }
+
 #rocio{
     background-image:url('images/Rocio.jpg');
     height: 200px;
@@ -173,7 +177,13 @@ h5 {
     background-position: center;
     background-size:contain;
 }
+#shien{
+    background-image:url('images/Shien.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
 .center{
     text-align:center;
 }
-}
+

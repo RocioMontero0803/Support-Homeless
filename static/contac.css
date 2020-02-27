@@ -5,7 +5,6 @@ ul {
   overflow: hidden;
   background-color: #333;
 }
-
 li {
   float: left;
 }
@@ -14,8 +13,10 @@ li a, .dropbtn {
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
+  width: 120px;
+  margin: 15px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
@@ -53,7 +54,7 @@ li.dropdown {
      background-position: center;
 }
 h1 {
-  font-size: 54px;
+  font-size: 100px;
   text-align:center;
   color: slategrey;
   font-family: 'Akronim', cursive;
@@ -72,3 +73,40 @@ h1 {
     background-position: center;
     background-size:cover;
 }
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 12px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-size: 20px;
+
+}
+
+
+input[type=submit] {
+  background-color: green ;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color:  green;
+
+
+
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+

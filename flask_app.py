@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__)
 app.config['DEBUG'] = True
@@ -25,4 +25,9 @@ def gallery():
 def resources():
     return render_template('resources.html')
 
+@app.route('/submit', methods=['POST'])
+def submit():
+    email = request.form['mail']
+    print("The email address is '" + email + "' ")
+    return redirect('/')
 

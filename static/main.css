@@ -118,3 +118,20 @@ img {
 .justify{
     text-align:justify;
 }
+hr{
+    width:100%;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:5px;
+
+}
+.image{
+    background-image: url('images/Homeless_logo_New.png');
+    background-repeat: no-repeat;
+  background-position: center;
+  background-size:contain;
+  margin-left:auto;
+  margin-right:auto;
+
+
+}
